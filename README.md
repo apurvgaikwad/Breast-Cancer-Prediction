@@ -3,7 +3,7 @@
 This project aims to implement Knowledge Discovery in Databases (KDD) in order to perform accurate predictions based on the Breast Cancer Prediction dataset obtained from Kaggle. Data mining techniques such as Gaussian Naive Bayes Classification, Random Forest Classification, and Logistic Regression were used to accurately predict the results.
 The models will be trained to predict whether the tumor found in patients are benign or malignant. The project essentially aims to reduce the risk of misdiagnosis based on a given set of breast cancer indicators (data features in the dataset). 
 
-Understanding the dataset:
+
 The Breast Cancer Prediciton.csv data file contains 683 records of data, each describing markers for breast cancer. The features in the data file are:
 1. Sample Code Number (Range: 1-10) - Describes the ID number
 2. Clump Thickness (Range: 1-10) - Assesses if the cells are mono or multi layered
@@ -16,6 +16,7 @@ The Breast Cancer Prediciton.csv data file contains 683 records of data, each de
 9. Normal Nucleoli (Range: 1-10) - Determines whether the nucleoli are small and barely visible or larger, more visible, and more plentiful.
 10. Mitoses (Range: 1-10) - Describes the level of mitotic (cell reproduction) activity.
 11. Class (2 for Benign, 4 for Malignant)
+
 
 Tools:
 - Python3
